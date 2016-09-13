@@ -1,4 +1,4 @@
-package edu.csumb.cst438fa16hello;
+package edu.csumb.cst438fa16questionsanswers;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;

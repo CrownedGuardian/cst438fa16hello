@@ -1,4 +1,4 @@
-package edu.csumb.cst438fa16hello.rest;
+package edu.csumb.cst438fa16questionsanswers.rest;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
@@ -15,12 +15,12 @@ import javax.ws.rs.core.Response;
  * https://jersey.java.net/documentation/latest/test-framework.html
  * https://jersey.java.net/apidocs/latest/jersey/index.html
  */
-public class HelloServiceTest extends JerseyTest {
+public class QuestionsAnswersServiceTest extends JerseyTest {
     @Override
     protected Application configure() {
-        return new ResourceConfig(HelloService.class);
+        return new ResourceConfig(QuestionsAnswersService.class);
     }
-
+/*
     @Test
     public void testTodayEndsWithDay() {
         WebTarget webTarget = target("today");                             // arrange
@@ -50,4 +50,5 @@ public class HelloServiceTest extends JerseyTest {
         assertThat(response.getStatus(),
                    equalTo(Response.Status.BAD_REQUEST.getStatusCode()));  // assert
     }
+ */
 }
